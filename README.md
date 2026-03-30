@@ -6,7 +6,7 @@ A UX research and design project conducted by **PSYKHE** for Frasers Hospitality
 
 ## Background
 
-Frasers Hospitality's website had not been revamped since 2020. This project was commissioned to identify friction points across the user journey and provide actionable design recommendations to increase revenue, membership sign-ups, and overall user experience.
+Frasers Hospitality's website had not been revamped since 2022. This project was commissioned to identify friction points across the user journey and provide actionable design recommendations to increase revenue, membership sign-ups, and overall user experience.
 
 **Mission statement:**
 > "How might we better engage visitors on the Frasers Hospitality website so that we can help drive user engagement and conversion?"
