@@ -83,22 +83,14 @@ nav {
 
 .nav-logo {
   display: flex;
-  flex-direction: column;
-  line-height: 1;
+  align-items: center;
   flex-shrink: 0;
 }
-.nav-logo .brand {
-  font-family: 'Georgia', serif;
-  font-size: 15px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--dark);
-}
-.nav-logo .sub {
-  font-size: 8px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: var(--gray);
+.nav-logo img {
+  height: 44px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .nav-links {
