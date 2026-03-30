@@ -286,6 +286,25 @@
     @media (max-width: 480px) {
       [class*="grid"] { grid-template-columns: 1fr !important; }
     }
+    @media (max-width: 768px) {
+      .room-hero { height: 300px; }
+      .room-hero-thumb-bar { right: 16px; bottom: 12px; }
+      .thumb-img { width: 60px; height: 45px; }
+      .room-hero-badge { left: 16px; top: 16px; }
+      .room-detail-header { padding: 28px 16px 0; }
+      .rdh-top { flex-direction: column; gap: 24px; }
+      .rdh-book-block { text-align: left; }
+      .rdh-book-actions { justify-content: flex-start; }
+      .features-bar { padding: 0 16px; }
+      .features-bar-inner { overflow-x: auto; gap: 0; padding: 16px 0; }
+      .feat-item { flex-shrink: 0; padding: 0 16px; min-width: 120px; }
+      .room-body-section { padding: 40px 16px; }
+      .room-body-inner { grid-template-columns: 1fr !important; }
+      .room-sidebar { order: -1; }
+      .floor-plan-section { padding: 40px 16px; }
+      .luxury-section { padding: 40px 16px; }
+      [class*="other-rooms"] { grid-template-columns: 1fr !important; }
+    }
   </style>
 </head>
 <body>

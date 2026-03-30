@@ -246,6 +246,22 @@
     @media (max-width: 480px) {
       [class*="grid"] { grid-template-columns: 1fr !important; }
     }
+    @media (max-width: 768px) {
+      .prop-hero { height: 400px; }
+      .prop-hero-content { padding: 0 16px 28px; }
+      .prop-hero-meta { flex-wrap: wrap; gap: 10px; }
+      .prop-tabs-inner { flex-direction: column; align-items: flex-start; padding: 0 16px; gap: 0; }
+      .prop-tab-links { overflow-x: auto; width: 100%; }
+      .prop-book-bar { padding: 12px 0; border-top: 1px solid var(--border); width: 100%; justify-content: space-between; }
+      .highlights-section { padding: 40px 16px; }
+      .highlights-inner { grid-template-columns: 1fr !important; gap: 32px; }
+      .room-cards-section { padding: 40px 16px; }
+      [class*="rooms-grid"] { grid-template-columns: 1fr !important; }
+      .facilities-section { padding: 40px 16px; }
+      .location-section { padding: 40px 16px; }
+      .collection-section { padding: 40px 16px; }
+      [class*="collection-grid"] { grid-template-columns: 1fr !important; }
+    }
   </style>
 </head>
 <body>

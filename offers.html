@@ -149,6 +149,15 @@
     @media (max-width: 480px) {
       [class*="grid"] { grid-template-columns: 1fr !important; }
     }
+    @media (max-width: 768px) {
+      .offers-hero { height: 320px; }
+      .offers-hero-content { padding: 0 16px; }
+      .offers-filter { padding: 0; top: 64px; }
+      .offers-section { padding: 32px 16px 56px; }
+      .offer-card.featured { grid-column: span 1 !important; }
+      .offer-card.featured .offer-card-img { height: 220px; }
+      .offer-card-footer { flex-direction: column; gap: 12px; align-items: flex-start; }
+    }
   </style>
 </head>
 <body>

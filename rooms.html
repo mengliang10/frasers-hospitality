@@ -191,6 +191,20 @@
     @media (max-width: 480px) {
       [class*="grid"] { grid-template-columns: 1fr !important; }
     }
+    @media (max-width: 768px) {
+      .rooms-page-header { padding: 56px 16px 36px; }
+      .room-tabs { top: 64px; }
+      .room-tabs-inner { flex-direction: column; align-items: flex-start; padding: 0 16px; gap: 0; }
+      .room-tab-list { overflow-x: auto; width: 100%; }
+      .room-tabs-sort { padding: 8px 0 12px; border-top: 1px solid var(--border); width: 100%; }
+      .room-listing-section { padding: 32px 16px 56px; }
+      .room-listing-card { grid-template-columns: 1fr !important; }
+      .rlc-img { height: 220px; }
+      .rlc-body { padding: 20px 16px; }
+      .rlc-footer { flex-direction: column; gap: 12px; align-items: flex-start; }
+      .rlc-footer .btn { width: 100%; text-align: center; }
+      .cta-section { padding: 56px 16px; }
+    }
   </style>
 </head>
 <body>

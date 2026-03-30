@@ -193,6 +193,22 @@
     @media (max-width: 480px) {
       [class*="grid"] { grid-template-columns: 1fr !important; }
     }
+    @media (max-width: 768px) {
+      .city-hero { height: 400px; }
+      .city-hero-content { padding: 0 16px 28px; }
+      .city-hero-meta { flex-wrap: wrap; gap: 8px; }
+      .city-properties { padding: 48px 16px; }
+      .city-props-header { flex-direction: column; align-items: flex-start; gap: 12px; }
+      .about-city { padding: 48px 16px; }
+      .about-city-inner { grid-template-columns: 1fr !important; gap: 32px; }
+      .city-facts { grid-template-columns: 1fr 1fr; }
+      .things-section { padding: 48px 16px; }
+      .blog-section { padding: 48px 16px; }
+      .faq-section { padding: 48px 16px; }
+    }
+    @media (max-width: 480px) {
+      .city-facts { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
