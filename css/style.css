@@ -314,6 +314,9 @@ footer {
 .footer-bottom a { color: rgba(255,255,255,0.35); transition: color .2s; }
 .footer-bottom a:hover { color: var(--gold); }
 
+/* Hide mobile menu by default (shown only via media query + JS) */
+.mobile-menu { display: none; }
+
 /* ── RESPONSIVE ── */
 @media (max-width: 1024px) {
   .util-bar { padding: 6px 24px; }
